@@ -1,5 +1,8 @@
+
+---  This is a test ---  
+
 clc,clear
-sigma = 1;  % 标准差
+sigma = 1;  % 标准差  
 data = sigma * randn(20000, 2);  % 生成高斯分布数据
 
 k_values = [4, 16, 64, 256];  % 不同的k值
